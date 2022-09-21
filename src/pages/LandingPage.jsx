@@ -1,7 +1,11 @@
-import React from "react"
-
-const landingPage = () => {
-  return <div>landingPage</div>
+import React, { Component } from "react"
+import Header from "parts/Header"
+export default class LandingPage extends Component {
+  render() {
+    return (
+      <>
+        <Header {...this.props}></Header>
+      </>
+    )
+  }
 }
-
-export default landingPage
